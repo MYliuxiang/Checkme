@@ -1,0 +1,239 @@
+
+/*
+ *rootViewController
+ */
+"Warning"       = "注意";
+"Can only be used for iphone4s or later"        = "只适用于iPhone4s或之后的机型";
+"Exit"      = "退出";
+
+"Searching..."      = "搜索设备中...";
+
+"Please turn on the Bluetooth of your VIATOM device, or enter Offline mode"     = "请开启您的测量设备的蓝牙，或进入离线模式";
+"Choose a device"       = "请选择一个设备";
+"View Offline data"     = "查看离线数据";
+
+"Loading..."        = "载入中...";
+
+"No records found"      = "没有数据";
+
+"Please update your Checkme"        = "请升级您的 Checkme";
+
+"Get Checkme information failed"        = "获取Check me信息失败";
+/*
+ * 弹框
+ */
+"Please select a"            = "请选择";
+"View Offline data"       = "查看离线数据";
+"Search device"        = "搜索扫描";
+
+/*
+ *LeftMenu
+ */
+"Data Review"       = "数据回顾";
+"More"      = "更多";
+"Daily Check"        = "每日一测";
+"ECG Recorder"      = "心电";
+"Pulse Oximeter"        = "血氧";
+"Thermometer"       = "体温";
+"Sleep Monitor"     = "睡眠";
+"Pedometer"     = "计步";
+
+"Device Update"     = "设备升级";
+"Settings"       = "设置";
+"About"     = "关于";
+/*
+ *DailyCheck
+ */
+"Back"      = "返回";
+"Daily Check - %@"      = "每日一测 - %@";
+"Please wait for current download completed"        = "请等待当前数据下载完毕";
+
+"Heart Rate"        = "心率";
+"Oxygen Saturation"     = "血氧";
+"Blood Pressure"        = "血压";
+
+"Day"       = "日";
+"Week"      = "周";
+"Month"     = "月";
+"Year"      = "年";
+
+"Can not download in Offline mode"      = "无法在离线模式下下载数据";
+
+//ChartWave
+"No data"       = "没有数据";
+"No records :("     = "没有记录:(";
+"(%@ %ld) %ld"		= "(%@-%ld) %ld";
+"%@ %ld"		= "%@-%ld";
+/*
+ *DailyCheck_Detail
+ */
+"Detail"        = "详细";
+
+//ecgResults
+"Regular ECG Rhythm"        = "正常心电节律";
+"High Heart Rate"       = "高心率值";
+"Low Heart Rate"        = "低心率值";
+"High QRS Value"        = "高QRS值";
+"High ST Value"         = "高ST值";
+"Low ST Value"          = "低ST值";
+"Irregular ECG Rhythm"      = "不规则节律";
+"Suspected Premature Beat"      = "疑似早搏";
+"Unable to Analyze"         = "无法分析";
+
+"Normal Blood Oxygen"       = "正常血氧饱和度";
+"Low Blood Oxygen"      = "低血氧饱和度";
+
+//设置BP
+"refer to %@"       = "参考 %@";
+
+"Choose a way to share"     = "请选择分享方式";
+"Save to Album"     = " 保存到相册";
+"Share"     = "分享";
+"Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"       = "姓名:%@\n测量时间:%@\n测量种类:%@\n报告:见所附文件\n";
+"Cancel"        = "取消";
+
+
+"Save failed, please check your system's privacy settings."     = "保存失败，请检查您的系统偏好设置";
+"Save succeeded"        = "保存成功";
+// report
+"Femal"     = "女";
+"Male"      = "男";
+"Report"        = "报告";
+"BPsys - %@"        = "收缩压 - %@";
+"No BP calibration"     = "无血压校准数据";
+"Not available for Guest"       = "未配置用户";
+"Unknown bandwidth"        = "未知带宽";
+"Normal"            = "普通";
+"Wide"            = "宽";
+"bandwidth:"         = "带宽:";
+/*
+ *ECG
+ */
+/*
+ *ECG Detail
+ */
+"BP Check data is incomplete, can not be resolved"          = "缺少血压测量数据, 无法解析";
+
+/*
+ *SleepMonitor
+ */
+"Blood Oxygen drops detected"       = "检测到血氧跌落";
+"No abnormalities detected"     = "未检测到异常";
+"Unable to Analyze"     = "无法分析";
+
+/*
+ *SLM detail
+ */
+"%dh%dm%ds"     = "%d时%d分%d秒";
+"%dm%ds"        = "%d分%d秒";
+"drop"      = " 跌落";
+
+/*
+ *Pedometer
+ */
+"Pedometer - %@"        = "计步 - %@";
+
+/*
+ *Checkme update
+ */
+"Can not get Checkme information in Offline mode"       = "无法在离线模式下获取Checkme信息";
+
+"Network is not available"      = "网络不可用";
+"Can not update in Offline mode"        = "无法在离线模式下升级";
+"Update will erase all data"        = "升级将会擦除Checkme中的所有数据";
+"Update"       = "升级";
+
+"Choose a languge"      = "请选择一种语言";
+// 语言列表翻译
+
+"Your version is up to date"        = "您已升级到最新版本";
+
+"Change Language"       = "请切换语言";
+
+"Update failed"     = "升级失败";
+
+/*
+ *Update detail
+ */
+"Really want to stop update?"       = "确定要退出升级吗？";
+"Yes"       = "Yes";
+"Downloading..."        = "下载中...";
+"Updating..."       = "升级中...";
+"Download success"      = "下载成功";
+"Update success, application will restart"      = "升级成功，Checkme Moile将会重启";
+"Restart"       = "重启";
+
+/*
+ *Settings
+ */
+"Really want to erase all data ?"       = "您要删除所有数据吗？";
+"Yes"       = "是";
+"No"        = "否";
+
+"Unit"      = "单位";
+"Metric"       = "公制";
+"British"       = "英制";
+
+"℃"         = "摄氏度";
+"℉"         = "华氏度";
+"Clear cache"       = "清除缓存";
+"Clear caches successed"        = "清除缓存成功";
+
+"Delete Data" =  "清除缓存";
+"Delete Data successed"        = "清除缓存成功";
+
+"Switch Device"          = "切换设备";
+"Can not change device when you connecting a Checkme"           = "在线状态下无法切换设备";
+
+"Switch User"            = "切换用户";
+
+//HealthKit
+"%@User%@ is locked. If you want to change user, please delete this user and then select another user"  =  "%@用户%@已被锁定，如果您想更换用户，请在主机上删除该用户，并重新选择";
+"Please select a user for data sharing to HealthKit, \n Note: The user cannot be changed after selection" = "请选择一个用户以便把数据共享至HealthKit，\n注意：选择后将不可更改";
+"Touch to enable HealthKit function" = "触摸以开启HealthKit功能";
+"User cannot be selected when offline"  =  "无法在离线状态时选择用户";
+"Please create a user first"   =  "请先创建一个用户";
+"Data is unable to be synchronized when offline"  =  "无法在离线状态下同步数据";
+"Not applicable for Hospital mode"  =  "不适用于Hospital模式";
+"HealthKit user"   =  "HealthKit 用户";
+"Synchronization done"  =  "同步成功";
+
+// Library
+"Delete"        = "删除";
+
+
+//spotCheck
+"PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"     = "患者ID:%@  姓名:%@\n测量时间:%@\n测量种类:%@\n报告:见所附文件\n";
+"Spot Check"            = "Spot Check";
+"Temperature not applicable"        = "体温不适用";
+"Temperature"       = "体温";
+"ECG not applicable"            = "ECG 不适用";
+"Spo2 not applicable"           = "Spo2 不适用";
+"Spot Check - %@"           = "Spot Check - %@";
+"Switch Mode"            = "切换模式";
+"Hospital"          = "医院";
+"Home"          = "家庭";
+"steps"     = "步";
+
+"New Version"          = "新版本";
+
+//cloud
+"Stop" = "Stop";
+"Enter a BodiMetrics Cloud account" = "Enter a BodiMetrics Cloud account";
+"BodiMetrics Cloud" = "BodiMetrics Cloud";
+"Auto sync" = "Auto sync";
+"Manual sync" = "Manual sync";
+"Sign out" = "Sign out";
+"Access Cloud in browser" = "Access Cloud in browser";
+"Sign in" = "Sign in";
+"or create an account at" = "or create an account at";
+"Later" = "Later";
+"Download" = "Download";
+"Please enter a cloud accout!" = "Please enter a cloud accout!";
+"Please enter an email." = "Please enter an email.";
+"Please enter password." = "Please enter password.";
+"Sign in failed!" = "Sign in failed!";
+"Share To" = "Share To";
+"New records ready to download from device. " = "New records ready to download from device.";
+
+

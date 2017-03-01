@@ -1,0 +1,271 @@
+
+/*
+ *rootViewController
+ */
+"Warning"       = "Advertencia";
+"Can only be used for iphone4s or later"        = "Solo para uso con iphones4s o avansados";
+"Exit"      = "Salida";
+
+"Searching..."      = "Buscando dispositivo...";
+
+"Please turn on the Bluetooth of your VIATOM device, or enter Offline mode"     = "Por favor, encienda el Bluetooth de su dispositivo BodiMetrics o entrar en modo sin conexión";
+"Choose a device"       = "Elija un dispositivo";
+"View Offline data"     = "Ver datos sin conexión";
+"Search device" = "Dispositivo de búsqueda";
+
+
+
+"Loading..."        = "Cargando...";
+
+"No records found"      = "No hay registros found";
+
+"Please update your Checkme"        = "Por favor actualice su Checkme";
+
+"Get Checkme information failed"        = "Obtenga información BodiMetrics falló";
+
+
+"Please select a"              = "Elija un dispositivo";
+"See the offline data"         = "Ver datos sin conexión";
+"Search the scanning"          = "Dispositivo de búsqueda";
+
+"Heart rate: Low range"              = "Ritmo cardiaco: Rango bajo";
+"Heart rate: Medium range"         = "Ritmo cardiaco: Rango medio";
+"Heart rate: High range"          = "Ritmo cardiaco: Rango alto";
+"Heart rate: Out of range"          = "Ritmo cardiaco: Fuera de rango";
+
+"Rate Pressure Product: Below range"              = "Producto nivel de presión: por debajo de la gama";
+"Rate Pressure Product: Medium range"         = "Producto nivel de presión: gama media";
+"Rate Pressure Product: High range"          = "Producto nivel de presión: gama alta";
+"Rate Pressure Product: Above  range"          = "Producto nivel de presión: por encima del rango";
+
+"RPP: Below range"              = "RPP: por debajo de la gama";
+"RPP: Medium range"         = "RPP: gama media";
+"RPP: High range"          = "RPP: gama alta";
+"RPP: Above range"          = "RPP: por encima del rango";
+/*
+ *LeftMenu
+ */
+"Data Review"       = "Reportes";
+"More"      = "Más";
+"Daily Check"        = "Revisar cuerpo";
+"ECG Recorder"      = "Actividad cardiaca";
+"Pulse Oximeter"        = "Oxímetro de pulso";
+"Thermometer"       = "Temperatura";
+"Sleep Monitor"     = "Monitor de Sueño";
+"Pedometer"     = "Podómetro";
+"Relax Me"     = "Relajarme";
+
+"Device Update"     = "Actualización de Despositivo";
+"Settings"       = "Configuraciones";
+"About"     = "Acerca de";
+/*
+ *DailyCheck
+ */
+"Back"      = "Atras";
+"Daily Check - %@"      = "Revisar cuerpo - %@";
+"Please wait for current download completed"        = "Por favor espere que la descarga corriente sea completada";
+
+"Heart Rate"        = "Ritmo cardiaco";
+"Oxygen Saturation"     = "Saturación de Oxígeno";
+"Blood Pressure"        = "Presión Arterial";
+
+"Day"       = "Día";
+"Week"      = "Semana";
+"Month"     = "Mes";
+"Year"      = "Año";
+
+"Can not download in Offline mode"      = "No se puede descargar en modo fuera de línea";
+"Systolic Blood Pressure" = "Presión Sanguínea Sistólica";
+"Rate Pressure Product"   = "Evaluar Producto de Presión";
+
+
+//ChartWave
+"No data"       = "Sin datos";
+"No records :("     = "No hay registros :(";
+"(%@ %ld) %ld"		= "(%@ %ld) %ld";
+"%@ %ld"		= "%@ %ld";
+
+/*
+ *DailyCheck_Detail
+ */
+"Detail"        = "Detalle";
+"Blood oxygen: Out of range" = "Oxígeno en sangre. Fuera del rango";
+"Blood oxygen: Within range" = "Oxígeno en sangre: Dentro del rango";
+
+//ecgResults
+"Regular ECG Rhythm"        = "Ritmo ECG normal";
+"High Heart Rate"       = "Frecuencia cardiaca alta";
+"Low Heart Rate"        = "Frecuencia cardiaca baja";
+"High QRS Value"        = "Alto valor de QRS";
+"High ST Value"     = "Alto valor ST";
+"Low ST Value"      = "Bajo valor ST";
+"Irregular ECG Rhythm"      = "Ritmo ECG irregular";
+"Suspected Premature Beat"      = "Sospecha de Latido prematuro";
+"Unable to Analyze"     = "Incapaz de analizar";
+
+"Normal Blood Oxygen"       = "Oxígeno sanguíneo normal";
+"Low Blood Oxygen"      = "Oxígeno en la sangre bajo";
+//设置BP
+"refer to %@"       = "Consulte %@";
+
+"Choose a way to share"     = "Elija un modo de compartir";
+"Save to Album"     = "Guardar en álbum";
+"Share"     = "Compartir";
+"Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"       = "Nombre:%@\nMedir el tiempo:%@\nMedida:%@\nInformes: Ver archivo adjunto\n";
+"Cancel"        = "Cancelar";
+"Save failed, please check your system's privacy settings."     = "Guardar falló, por favor, compruebe la configuración de privacidad de tu sistema.";
+"Save succeeded"        = "Guardado correctamente";
+// report
+"Femal"     = "Mujer";
+"Male"      = "Hombre";
+"Report"        = "Reporte";
+"BPsys - %@"        = "BPsys - %@";
+"No BP calibration"     = "No hay calibración BP";
+"Not available for Guest"       = "No disponible para los huéspedes";
+"Unknown bandwidth"        = "Bandwidth desconocido";
+"Normal"            = "Normal";
+"Wide"            = "ancho";
+"bandwidth:"         = "bandwidth:";
+/*
+ *ECG
+ */
+/*
+ *ECG Detail
+ */
+"BP Check data is incomplete, can not be resolved"      = "Comprueba de datos de BP está incompleta, no se puede resolve";
+
+/*
+ *SleepMonitor
+ */
+"Blood Oxygen drops detected"       = "Gotas de oxígeno en sangre detectado";
+"No abnormalities detected"     = "No se han encontrado abnormalidades";
+"Unable to Analyze"     = "Incapaz de analizar";
+
+/*
+ *SLM detail
+ */
+"%dh%dm%ds"     = "%dh%dm%ds";
+"%dm%ds"        = "%dm%ds";
+"drop"      = " gota";
+"Relax Me - %@" = "Relajarme -%@";
+"Relaxation Index" = "Índice de relajación";
+"Duration" = "Duración";
+/*
+ *Pedometer
+ */
+"Pedometer - %@"        = "Podómetro - %@";
+
+/*
+ *Checkme update
+ */
+"Can not get Checkme information in Offline mode"       = "No puede obtener información BodiMetrics en modo fuera de línea";
+"Get Checkme information failed"        = "Obtenga información BodiMetrics falló";
+
+"Network is not available"      = "La red no está disponible";
+"Can not update in Offline mode"        = "No se puede actualizar en modo fuera de linea";
+"Update will erase all data"        = "Está seguro que desea actualizar?";
+"Update"       = "Actualizar";
+
+"Choose a languge"      = "Cambiar idioma";
+// 语言列表翻译
+
+"Your version is up to date"        = "Su versión está actualizada";
+
+"Change Language"       = "Cambiar idioma";
+
+"Update failed"     = "Error en la actualización";
+
+/*
+ *Update detail
+ */
+"Really want to stop update?"       = "Realmente desea borrar todos los datos?";
+"Yes"       = "Sí";
+"Downloading..."        = "Descargando...";
+"Updating..."       = "Actualización...";
+"Download success"      = "Descarga correcta";
+"Update success, application will restart"      = "Actualizar correctamente, la aplicación se reiniciará";
+"Restart"       = "Reiniciar";
+
+/*
+ *Settings
+ */
+"Delete Data" = "Eliminar datos";
+"Really want to erase all data ?"       = "Realmente desea borrar todos los datos?";
+"Yes"       = "Sí";
+"No"        = "No";
+
+"Unit"      = "Unidad";
+"Metric"       = "Métrica";
+"British"       = "Britanico";
+
+"Termometer"        = "Termometro";
+"℃"         = "℃";
+"℉"         = "℉";
+"Clear cache"       = "Borrar caché";
+"Clear caches successed"        = "Borrar cachés correctamente";
+
+"Switch Device"          = "Cambiar dispositivo";
+"Can not change device when you connecting a Checkme"           = "No se puede cambiar el dispositivo cuando se conecta a BodiMetrics";
+
+"Switch User"           = "Cambiar de usuario";
+// Library
+"Delete"        = "Eliminar";
+
+//HealthKit
+"%@User%@ is locked. If you want to change user, please delete this user and then select another user"   =  "%@ usuario está bloqueado. Si desea cambiar el usuario, elimine este usuario y, seleccione otro usuario.";
+"Please select a user for data sharing to HealthKit, \n Note: The user cannot be changed after selection" = "Seleccione un usuario para compartir datos a HealthKit,\n Nota: El usuario no puede ser cambiado después de la selección.";
+
+"Touch to enable HealthKit function" = "Toque para activar la función HealthKit";
+"User cannot be selected when offline" = "El usuario no se puede seleccionar cuando se trabaja sin conexión";
+"Please create a user first"   =  "Por favor, crear un usuario primero";
+"Data is unable to be synchronized when offline"  =  "Data is unable to be synchronized when offline";
+"Not applicable for Hospital mode"  =  "No aplicable a modo de Hospital";
+"HealthKit user"   =  "Usuario de HealthKit";
+"Synchronization done"  =  "Sincronización completa";
+
+
+//spotCheck
+"PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"     = "Identidad del Paciente:%@  Nombre:%@\nMedir el tiempo:%@\nMedida:%@\nRInformes: Ver archivo adjunto\n";
+"Spot Check"            = "Punto de chequeo";
+"Temperature not applicable"        = "Temperatura no aplicable";
+"Temperature"       = "Temperatura";
+"ECG not applicable"            = "ECG no aplicable";
+"Spo2 not applicable"           = "SPO2 no aplicable";
+"Spot Check - %@"           = "Punto de chequeo - %@";
+"Switch Mode"            = "Cambio de modo";
+"Hospital"          = "Hospital";
+"Home"          = "Inicío";
+
+"steps"     = "Pasos";
+
+"New Version"          = "Nueva versión";
+
+//cloud
+"Stop" = "Alto";
+"Enter a BodiMetrics Cloud account" = "Introduzca una cuenta BodiMetrics de la nube";
+"BodiMetrics Cloud" = "Nube de BodiMetrics";
+"Auto sync" = "Sincronización automatica";
+"Manual sync" = "Sincronización manual";
+"Sign out" = "Cerrar session";
+"Access Cloud in browser" = "Acceso de la Nube en el navegador";
+"Sign in" = "Iniciar session";
+"or create an account at" = "O crear una cuenta en";
+"Later" = "Más tarde";
+"Download" = "Descargar";
+"Please enter a cloud accout!" = " Introduzca una cuenta de la nube!";
+"Please enter an email." = "Introduzca una dirección de correo electrónico.";
+"Please enter password." = " Introduzca una contraseña.";
+"Sign in failed!" = "No se pudo iniciar sesión!";
+"Share To" = "Compartir En";
+"New records ready to download from device. " = "Registros nuevos listos para descargar desde el dispositivo.";
+"Delete Data successed"        = "Los datos han sido eliminados correctamente";
+
+//为改的西班牙语、
+
+/*
+ Delete data record(s) from BM-88 XXXX
+ Enter a BodiMetrics cloud account
+ 
+ Eliminar datos de registro(s) del BM-88 XXXX?
+ Introduzca una cuenta de la nube BodiMetrics
+ */

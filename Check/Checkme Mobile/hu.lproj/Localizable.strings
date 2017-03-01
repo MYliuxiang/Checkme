@@ -1,0 +1,215 @@
+
+/*
+ *rootViewController
+ */
+"Warning"       = "Figyelem";
+"Can only be used for iphone4s or later"        = "Csak min. iPhone4-n használható";
+"Exit"      = "Kilépés";
+
+"Searching..."      = "keresése…….";
+
+"Please turn on the Bluetooth of your VIATOM device, or enter Offline mode"     = "Kapcsolja be a Viatom Bluetooth-t vagy válassza az offline módot";
+"Choose a device"       = "Válasszon eszközt";
+"View Offline data"     = "Offline adatmegtekintés";
+
+"Loading..."        = "Töltés…….";
+
+"No records found"      = "Nem található adat";
+
+"Please update your Checkme"        = "Frissítse a Checkme-t";
+
+"Get Checkme information failed"        = "Sikertelen Checkme adat letöltés";
+
+/*
+ *LeftMenu
+ */
+"Data Review"       = "Adat visszanézés";
+"More"      = "Több";
+"Daily Check"        = "Napi ellenőrzés";
+"ECG Recorder"      = "EKG";
+"Pulse Oximeter"        = "Pulzoximéter";
+"Thermometer"       = "Lázmérő";
+"Sleep Monitor"     = "Alvás monitor";
+"Pedometer"     = "Fittness";
+
+"Device Update"     = "Eszköz frissítés";
+"Settings"       = "Beállítások";
+"About"     = "Szoftver";
+/*
+ *DailyCheck
+ */
+"Back"      = "Vissza";
+"Daily Check - %@"      = "Napi ellenőrzés - %@";
+"Please wait for current download completed"        = "Várjon, míg a jelenlegi letöltés befejeződik";
+
+"Heart Rate"        = "pulsus";
+"Oxygen Saturation"     = "Oxigén telítettség";
+"Blood Pressure"        = "Vérnyomás";
+
+"Day"       = "Nap";
+"Week"      = "Hét";
+"Month"     = "Hónap";
+"Year"      = "Év";
+
+"Can not download in Offline mode"      = "Offline módban nem tud adatot letölteni";
+
+//ChartWave
+"No data"       = "Nincs adat";
+"No records :("     = "Nem található adat :(";
+"(%@ %ld) %ld"		= "(%@ %ld) %ld";
+"%@ %ld"		= "%@ %ld";
+
+/*
+ *DailyCheck_Detail
+ */
+"Detail"        = "Részlet";
+
+//ecgResults
+"Regular ECG Rhythm"        = "Szabályos EKG ritmus";
+"High Heart Rate"       = "Gyors szívritmus";
+"Low Heart Rate"        = "Lassú szívritmus";
+"High QRS Value"        = "Magas QRS érték";
+"High ST Value"     = "Magas ST érték";
+"Low ST Value"      = "Alacsony ST érték";
+"Irregular ECG Rhythm"      = "Szabálytalan EKG ritmus";
+"Suspected Premature Beat"      = "Korai kamrai összehúzódás";
+"Unable to Analyze"     = "Analízis nem végezhető el";
+
+"Normal Blood Oxygen"       = "Normál vér oxigén";
+"Low Blood Oxygen"      = "Alacsony vér oxigén";
+//设置BP
+"refer to %@"       = "Vonatkozóan %@";
+
+"Choose a way to share"     = "Válasszon megosztási módot";
+"Save to Album"     = "Mentés az Albumba";
+"Share"     = "Megosztás";
+"Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"       = "név:%@\nMérési idő:%@\nMérés:%@\nJelentések:Lásd a csatolt fájlt\n";
+"Cancel"        = "Törlés";
+"Save failed, please check your system's privacy settings."     = "Sikertelen mentés, ellenőrizze a biztonsági beállításokat";
+"Save succeeded"        = "Sikeres mentés";
+// report
+"Femal"     = "Nő";
+"Male"      = "Férfi";
+"Report"        = "Jelentés";
+"BPsys - %@"        = "Szisztolés nyomás - %@";
+"No BP calibration"     = "Nincs vérnyomás kalibráció";
+"Not available for Guest"       = "Vendégnek (Guest) nem elérhető";
+"Unknown bandwidth"        = "ismeretlen sávszélesség";
+"Normal"            = "normál";
+"Wide"            = "széles";
+"bandwidth:"         = "sávszélesség:";
+/*
+ *ECG
+ */
+/*
+ *ECG Detail
+ */
+"BP Check data is incomplete, can not be resolved"      = "BP Check data is incomplete, can not be resolved";
+
+/*
+ *SleepMonitor
+ */
+"Blood Oxygen drops detected"       = "Vér oxigén csökkenés volt észlelhető";
+"No abnormalities detected"     = "Eltérés nem volt észlelhető";
+
+/*
+ *SLM detail
+ */
+"%dh%dm%ds"     = "%dh%dm%ds";
+"%dm%ds"        = "%dm%ds";
+"drop"      = " O2 esés";
+
+/*
+ *Pedometer
+ */
+"Pedometer - %@"        = "Fittness - %@";
+
+/*
+ *Checkme update
+ */
+"Can not get Checkme information in Offline mode"       = "Offline módban nem tud adatot letölteni";
+"Get Checkme information failed"        = "Sikertelen Checkme adat letöltés";
+
+"Network is not available"      = "Hálózat nem elérhető";
+"Can not update in Offline mode"        = "Offline módban nem tud frissíteni";
+"Update will erase all data"        = "Frissítés minden adatot töröl";
+"Update"       = "Frissítés";
+
+"Choose a languge"      = "Válasszon nyelvet";
+// 语言列表翻译
+
+"Your version is up to date"        = "Jelenlegi verzió frissítve";
+
+"Change Language"       = "Váltson nyelvet";
+
+"Update failed"     = "Sikertelen frissítés";
+
+/*
+ *Update detail
+ */
+"Really want to stop update?"       = "Leállítja a frissítést?";
+"Downloading..."        = "letöltés …";
+"Updating..."       = "Frissítés.......";
+"Download success"      = "Sikeres letöltés";
+"Update success, application will restart"      = "Sikeres frissítés, alkalmazás újraindul";
+"Restart"       = "újraindítás";
+
+/*
+ *Settings
+ */
+"Really want to erase all data ?"       = "Valóban töröl minden adatot?";
+"Yes"       = "Igen";
+"No"        = "Nem";
+
+"Unit"      = "egység";
+"Metric"       = "Mértékegység";
+"British"       = "Angol";
+
+"℃"         = "℃";
+"℉"         = "℉";
+"Clear cache"       = "Memória törlés";
+"Clear caches successed"        = "Memória törlés sikeres";
+
+"Switch Device"          = "Eszköz váltson";
+"Can not change device when you connecting a Checkme"           = "Ha Checkme-t csatlakoztat, nem válthat eszközt";
+
+"Switch User"           = "Felhasználó Váltás";
+// Library
+"Delete"        = "Törlés";
+
+//spotCheck
+"PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"     = "beteg ID:%@  név:%@\nMérési idő:%@\nMérés:%@\nJelentések:Lásd a csatolt fájlt\n";
+"Spot Check"            = "villám kontrol";
+"Temperature not applicable"        = "hőmérséklet nem használható";
+"Temperature"       = "hőmérséklet";
+"ECG not applicable"            = "ECG nem használható";
+"Spo2 not applicable"           = "Spo2 nem használható";
+"Spot Check - %@"           = "villám kontrol - %@";
+"Switch Mode"            = "Modus váltson";
+"Hospital"          = "Kórházi";
+"Home"          = "Otthoni";
+
+"steps"     = "Lépések";
+
+"New Version"          = "új Verzió";
+
+//cloud
+"Stop" = "Stop";
+"Enter a BodiMetrics Cloud account" = "Enter a BodiMetrics Cloud account";
+"BodiMetrics Cloud" = "BodiMetrics Cloud";
+"Auto sync" = "Auto sync";
+"Manual sync" = "Manual sync";
+"Sign out" = "Sign out";
+"Access Cloud in browser" = "Access Cloud in browser";
+"Sign in" = "Sign in";
+"or create an account at" = "or create an account at";
+"Later" = "Later";
+"Download" = "Download";
+"Please enter a cloud accout!" = "Please enter a cloud accout!";
+"Please enter an email." = "Please enter an email.";
+"Please enter password." = "Please enter password.";
+"Sign in failed!" = "Sign in failed!";
+"Share To" = "Share To";
+"New records ready to download from device. " = "New records ready to download from device.";
+"Delete Data successed"        = "Delete Data successed";
+

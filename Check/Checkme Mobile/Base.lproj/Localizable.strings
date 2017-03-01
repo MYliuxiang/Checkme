@@ -1,0 +1,275 @@
+
+/*
+ *rootViewController
+ */
+"Warning"       = "Warning";
+"Can only be used for iphone4s or later"        = "Can only be used for iphone4s or later";
+"Exit"      = "Exit";
+
+"Searching..."      = "Searching...";
+"Search device" = "Search device";
+
+"Please turn on the Bluetooth of your VIATOM device, or enter Offline mode"     = "Please turn on the Bluetooth of your BodiMetrics device, or enter Offline mode";
+"Choose a device"       = "Choose a device";
+"View Offline data"     = "View offline data";
+
+"Loading..."        = "Loading...";
+
+"No records found"      = "There is no data in BM-88";
+
+"Please update your Checkme"        = "Please update your BodiMetrics";
+
+"Get Checkme information failed"        = "Get BodiMetrics information failed";
+
+/*
+ * 弹框
+ */
+
+"Please select a"              = "Please select a";
+"See the offline data"         = "See the offline data";
+"Search the scanning"          = "Search for device";
+
+"Heart rate: Low range"              = "Heart rate: Low range";
+"Heart rate: Medium range"         = "Heart rate: Medium range";
+"Heart rate: High range"          = "Heart rate: High range";
+"Heart rate: Out of range"          = "Heart rate: Out of range";
+
+"Rate Pressure Product: Below range"              = "Rate Pressure Product: Below range";
+"Rate Pressure Product: Medium range"         = "Rate Pressure Product: Medium range";
+"Rate Pressure Product: High range"          = "Rate Pressure Product: High range";
+"Rate Pressure Product: Above range"          = "Rate Pressure Product: Above range";
+
+"RPP: Below range"              = "RPP: Below range";
+"RPP: Medium range"         = "RPP: Medium range";
+"RPP: High range"          = "RPP: High range";
+"RPP: Above range"          = "RPP: Above range";
+
+/*
+ *LeftMenu
+ */
+"Data Review"       = "Reports";
+"More"      = "More";
+"Daily Check"        = "Body Check";
+"ECG Recorder"      = "Heart Activity";
+"Pulse Oximeter"        = "Pulse Oximeter";
+"Thermometer"       = "Temperature";
+"Sleep Monitor"     = "Sleep Monitor";
+"Pedometer"     = "Pedometer";
+"Relax Me"     = "Relax Me";
+
+"Device Update"     = "Device Update";
+"Settings"       = "Settings";
+"About"     = "About";
+/*
+ *DailyCheck
+ */
+"Back"      = "Back";
+"Daily Check - %@"      = "Body Check - %@";
+"Please wait for current download completed"        = "Please wait for current download completed";
+
+"Heart Rate"        = "Heart Rate";
+"Oxygen Saturation"     = "Oxygen Saturation";
+"Blood Pressure"        = "Blood Pressure";
+"Systolic Blood Pressure" = "Systolic Blood Pressure";
+"Rate Pressure Product"   = "Rate Pressure Product";
+
+"Day"       = "Day";
+"Week"      = "Week";
+"Month"     = "Month";
+"Year"      = "Year";
+
+"Can not download in Offline mode"      = "Can not download in Offline mode";
+
+//ChartWave
+"No data"       = "No data";
+"No records :("     = "No records :(";
+"(%@ %ld) %ld"		= "(%@ %ld) %ld";
+"%@ %ld"		= "%@ %ld";
+
+/*
+ *DailyCheck_Detail
+ */
+"Detail"        = "Detail";
+"Blood oxygen: Out of range" = "Blood oxygen: Out of range";
+"Blood oxygen: Out of range" = "Blood oxygen: Within range";
+
+
+//ecgResults
+"Regular ECG Rhythm"        = "Regular ECG Rhythm";
+"High Heart Rate"       = "High Heart Rate";
+"Low Heart Rate"        = "Low Heart Rate";
+"High QRS Value"        = "High QRS Value";
+"High ST Value"     = "High ST Value";
+"Low ST Value"      = "Low ST Value";
+"Irregular ECG Rhythm"      = "Irregular ECG Rhythm";
+"Suspected Premature Beat"      = "Suspected Premature Beat";
+"Unable to Analyze"     = "Unable to analyze, review manual and retry";
+
+"Normal Blood Oxygen"       = "Normal Blood Oxygen";
+"Low Blood Oxygen"      = "Low Blood Oxygen";
+//设置BP
+"refer to %@"       = "refer to %@";
+
+"Choose a way to share"     = "Choose a way to share";
+"Save to Album"     = "Save to Album";
+"Share"     = "Share";
+
+//"Cancel"        = "Cancel";//自己加的
+
+"Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"       = "Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n";
+
+"Cancel"        = "Cancel";
+"Save failed, please check your system's privacy settings."     = "Save failed, please check your system's privacy settings.";
+"Save succeeded"        = "Save succeeded";
+// report
+"Femal"     = "Femal";
+"Male"      = "Male";
+"Report"        = "Report";
+"BPsys - %@"        = "BPsys - %@";
+"No BP calibration"     = "No BP calibration";
+"Not available for Guest"       = "Not available for Guest";
+"Unknown bandwidth"        = "Unknown bandwidth";
+"Normal"            = "Normal";
+"Wide"            = "Wide";
+"bandwidth:"         = "bandwidth:";
+/*
+ *ECG
+ */
+/*
+ *ECG Detail
+ */
+"BP Check data is incomplete, can not be resolved"      = "BP Check data is incomplete, can not be resolved";
+
+/*
+ *SleepMonitor
+ */
+"Blood Oxygen drops detected"       = "Blood Oxygen drops detected";
+"No abnormalities detected"     = "No abnormalities detected";
+"Unable to Analyze"     = "Unable to analyze, review manual and retry";
+"Relax Me - %@" = "Relax Me - %@";
+"Relaxation Index" = "Relaxation Index";
+"Duration" = "Duration";
+
+/*
+ *SLM detail
+ */
+"%dh%dm%ds"     = "%dh%dm%ds";
+"%dm%ds"        = "%dm%ds";
+"drop"      = " drop";
+
+/*
+ *Pedometer
+ */
+"Pedometer - %@"        = "Pedometer - %@";
+
+/*
+ *Checkme update
+ */
+"Can not get Checkme information in Offline mode"       = "Can not get BodiMetrics information in Offline mode";
+"Get Checkme information failed"        = "Get BodiMetrics information failed";
+
+"Network is not available"      = "Network is not available";
+"Can not update in Offline mode"        = "Can not update in Offline mode";
+"Update will erase all data"        = "Are you sure you want to update ?";  //更新提示  hjz
+"Update"       = "Update";
+
+"Choose a languge"      = "Choose a languge";
+// 语言列表翻译
+
+"Your version is up to date"        = "Your version is up to date";
+
+"Change Language"       = "Change Language";
+
+"Update failed"     = "Update failed";
+
+/*
+ *Update detail
+ */
+"Really want to stop update?"       = "Really want to stop update?";
+"Yes"       = "Yes";
+"Downloading..."        = "Downloading...";
+"Updating..."       = "Updating...";
+"Download success"      = "Download successfully";
+"Update success, application will restart"      = "Update successfully, application will restart";
+"Restart"       = "Restart";
+
+/*
+ *Settings
+ */
+"Delete Data" = "Delete Data";
+"Really want to erase all Data ?"       = "Really want to erase all Data ?";
+"Yes"       = "Yes";
+"No"        = "No";
+
+"Unit"      = "Unit";
+"Metric"       = "Metric";
+"British"       = "British";
+
+"Termometer"        = "Termometer";
+"℃"         = "℃";
+"℉"         = "℉";
+"Clear cache"       = "Delete data";
+"Clear caches successed"        = "Clear caches successfully";
+
+"Switch Device"          = "Switch device";
+"Can not change device when you connecting a Checkme"           = "Can not change device when you connecting a BodiMetrics";
+
+"Switch User"            = "Switch User";
+
+//HealthKit
+"%@User%@ is locked. If you want to change user, please delete this user and then select another user"   =  "%@User %@ is locked. If you want to change user, please delete this user and then select another user.";
+"Please select a user for data sharing to HealthKit, \n Note: The user cannot be changed after selection" = "Please select a user for data sharing to HealthKit,\nNote: The user cannot be changed after selection.";
+"Touch to enable HealthKit function" = "Touch to enable HealthKit function";
+"User cannot be selected when offline" = "User cannot be selected when offline";
+"Please create a user first"   =  "Please create a user first";
+"Data is unable to be synchronized when offline"  =  "Data is unable to be synchronized when offline";
+"Not applicable for Hospital mode"  =  "Not applicable for Hospital mode";
+"HealthKit user"   =  "HealthKit User";
+"Synchronization done"  =  "Synchronization done";
+
+// Library
+"Delete"        = "Delete";
+
+//spotCheck
+"PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"     = "PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n";
+"Spot Check"            = "Spot Check";
+"Temperature not applicable"        = "Temperature not applicable";
+"Temperature"       = "Temperature";
+"ECG not applicable"            = "ECG not applicable";
+"Spo2 not applicable"           = "Spo2 not applicable";
+"Spot Check - %@"           = "Spot Check - %@";
+"Switch Mode"            = "Switch Mode";
+"Hospital"          = "Hospital";
+"Home"          = "Home";
+
+"steps"     = "Steps";
+
+"New Version"          = "New Version";
+
+
+
+//cloud
+"Stop" = "Stop";
+"Enter a BodiMetrics Cloud account" = "Enter a BodiMetrics Cloud account";
+"BodiMetrics Cloud" = "BodiMetrics Cloud";
+"Auto sync" = "Auto sync";
+"Manual sync" = "Manual sync";
+"Sign out" = "Sign out";
+"Access Cloud in browser" = "Access Cloud in browser";
+"Sign in" = "Sign in";
+"or create an account at" = "or create an account at";
+"Later" = "Later";
+"Download" = "Download";
+"Please enter a cloud accout!" = "Please enter a cloud accout!";
+"Please enter an email." = "Please enter an email.";
+"Please enter password." = "Please enter password.";
+"Sign in failed!" = "Sign in failed!";
+"Share To" = "Share To";
+
+"New records ready to download from device. " = "New records ready to download from device.";
+"Delete Data successed"        = "Delete Data successed";
+
+
+
+
+

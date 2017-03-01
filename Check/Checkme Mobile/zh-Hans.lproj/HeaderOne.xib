@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderOne">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="305"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BodiMetrics Cloud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpJ-8h-Heh">
+                    <rect key="frame" x="71.5" y="16" width="177" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="HBd-E6-mfj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.30980392156862746" green="0.24313725490196078" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HI, Vincent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwj-d4-Zan">
+                    <rect key="frame" x="30" y="45" width="84" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="Bra-0L-vbL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bd-aV-fDF">
+                    <rect key="frame" x="30" y="188" width="260" height="40"/>
+                    <color key="backgroundColor" red="0.9882352941176471" green="0.40784313725490196" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0KE-wy-bNf"/>
+                    </constraints>
+                    <state key="normal" title="Sign out">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="singOutAC:" destination="iN0-l3-epB" eventType="touchUpInside" id="zI6-gF-hWv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8J-BK-oZH">
+                    <rect key="frame" x="30" y="243" width="260" height="40"/>
+                    <color key="backgroundColor" red="0.30980392156862746" green="0.24313725490196078" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="UYG-lm-qTG"/>
+                    </constraints>
+                    <state key="normal" title="Access Cloud in browser">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="broAC:" destination="iN0-l3-epB" eventType="touchUpInside" id="Xcy-t3-4y5"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto sync" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKg-9M-6MY">
+                    <rect key="frame" x="30" y="80" width="64" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="gAV-oC-QKt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtD-1N-oJs">
+                    <rect key="frame" x="30" y="133" width="260" height="40"/>
+                    <color key="backgroundColor" red="0.58039215686274515" green="0.52156862745098043" blue="0.7686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4IM-VJ-QJM"/>
+                    </constraints>
+                    <state key="normal" title="Manual sync">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mauanlAC:" destination="iN0-l3-epB" eventType="touchUpInside" id="MC3-Tc-kkf"/>
+                    </connections>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lw7-lF-EUg">
+                    <rect key="frame" x="241" y="81" width="51" height="31"/>
+                    <color key="onTintColor" red="0.58039215686274515" green="0.52156862745098043" blue="0.7686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="switchAC:" destination="iN0-l3-epB" eventType="valueChanged" id="fTu-4v-PMr"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fpJ-8h-Heh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0oT-Ei-LxM"/>
+                <constraint firstItem="3Bd-aV-fDF" firstAttribute="top" secondItem="PtD-1N-oJs" secondAttribute="bottom" constant="15" id="3nb-Ti-WIE"/>
+                <constraint firstItem="R8J-BK-oZH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="F6q-vu-JNv"/>
+                <constraint firstItem="Xwj-d4-Zan" firstAttribute="top" secondItem="fpJ-8h-Heh" secondAttribute="bottom" constant="8" id="Gi6-ff-Vty"/>
+                <constraint firstAttribute="trailing" secondItem="Lw7-lF-EUg" secondAttribute="trailing" constant="30" id="Gr2-IP-nDA"/>
+                <constraint firstItem="rKg-9M-6MY" firstAttribute="top" secondItem="Xwj-d4-Zan" secondAttribute="bottom" constant="2" id="N4z-se-H7P"/>
+                <constraint firstItem="R8J-BK-oZH" firstAttribute="top" secondItem="3Bd-aV-fDF" secondAttribute="bottom" constant="15" id="N5F-8M-zEU"/>
+                <constraint firstAttribute="trailing" secondItem="3Bd-aV-fDF" secondAttribute="trailing" constant="30" id="NSR-v5-zEw"/>
+                <constraint firstAttribute="trailing" secondItem="PtD-1N-oJs" secondAttribute="trailing" constant="30" id="Ojv-Vd-K5x"/>
+                <constraint firstItem="Xwj-d4-Zan" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="SZx-bc-jjO"/>
+                <constraint firstItem="PtD-1N-oJs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="aq3-Bk-4z8"/>
+                <constraint firstItem="rKg-9M-6MY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="evF-ab-Xml"/>
+                <constraint firstItem="PtD-1N-oJs" firstAttribute="top" secondItem="rKg-9M-6MY" secondAttribute="bottom" constant="20" id="fpo-e1-x46"/>
+                <constraint firstItem="3Bd-aV-fDF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="mhy-0V-ORw"/>
+                <constraint firstItem="R8J-BK-oZH" firstAttribute="top" secondItem="3Bd-aV-fDF" secondAttribute="bottom" constant="15" id="ujz-Xm-8Tb"/>
+                <constraint firstAttribute="trailing" secondItem="R8J-BK-oZH" secondAttribute="trailing" constant="30" id="ukw-Cf-CIy"/>
+                <constraint firstItem="fpJ-8h-Heh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="wEZ-al-MB7"/>
+                <constraint firstItem="Lw7-lF-EUg" firstAttribute="centerY" secondItem="rKg-9M-6MY" secondAttribute="centerY" id="xKZ-cD-8k7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="broBtn" destination="R8J-BK-oZH" id="dCa-oI-L0m"/>
+                <outlet property="mBtn" destination="PtD-1N-oJs" id="cJ9-lg-oaf"/>
+                <outlet property="nameLabel" destination="Xwj-d4-Zan" id="NDQ-CQ-oaq"/>
+                <outlet property="singOutBtn" destination="3Bd-aV-fDF" id="2RB-pL-j3A"/>
+                <outlet property="swi" destination="Lw7-lF-EUg" id="XwZ-6n-v9g"/>
+            </connections>
+            <point key="canvasLocation" x="-123" y="51"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

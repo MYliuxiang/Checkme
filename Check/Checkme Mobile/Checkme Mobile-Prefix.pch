@@ -1,0 +1,131 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+
+
+//Ba165104e40b1d05a446cb3ae49b3190cc4b15d3  e612dbe9d650ea736775ef2df3daed0b74165b7f
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#endif
+
+#if 1
+#define DBG(fmt,argv...) NSLog(fmt,##argv)
+#else
+#define DBG(fmt,argv...)
+#endif
+
+
+#if 1
+#define ImportantLog(fmt,argv...) NSLog(fmt,##argv)
+//do\
+//{\
+//    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];\
+//    [dateFormatter setDateStyle:NSDateFormatterMediumStyle];\
+//    [dateFormatter setTimeStyle:NSDateFormatterShortStyle];\
+//    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSSSSS"];\
+//    NSLog(@"\nDate %@", [dateFormatter stringFromDate:[NSDate date]]);\
+//    NSString *time = [dateFormatter stringFromDate:[NSDate date]];\
+//    [dateFormatter release];\
+//    NSLog(fmt,##argv);\
+//}while(0);
+#else
+#define ImportantLog(fmt,argv...)
+#endif
+
+//定义输出语句，degug模式下有输出，release模式下无输出
+#ifdef     DEBUG
+#define DLog( s, ... )   NSLog( @"<%@,(line=%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DLog( s, ... )
+#endif
+
+#define UserDefaults  [NSUserDefaults standardUserDefaults]
+
+//颜色和透明度设置
+#define RGBA(r,g,b,a)               [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+
+//-----------------------屏幕尺寸------------------
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+//---------------------当前系统版本------------------
+#define kVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define PRINT printf
+//是否为法国定制版Thomson
+#define isThomson  NO
+//是否为semacare
+#define isSemacare NO
+
+#import "TypesDef.h"
+#import "ToolMacro.h"
+#import "Config.h"
+#import "NoticeName.h"
+#import "LocalizationUtils.h"
+
+#import "HKHealthStore+AAPLExtensions.h"
+
+#import "UIViewExt.h"
+#import "UIView+Extension.h"
+#import "MyColor.h"
+#import "SVProgressHUD.h"
+
+#import "WXDataService.h"
+#import "NSString+JiaMi.h"
+#import "FirstDownManger.h"
+#import "LXDownView.h"
+#import "JKDBModel.h"
+#import "CloudModel.h"
+#import "CloudUpLodaManger.h"
+#define UserDefault  [NSUserDefaults standardUserDefaults]
+
+#define Password     @"password"
+#define ISLOGIN      @"isLogin"
+#define EMAIL        @"email"
+#define NAME         @"name"
+#define Auto         @"auto"
+#define Suto         @"suto"
+#define OldEmail         @"oldEmail"
+#import "UserItem.h"
+
+
+
+//---------------网络请求----------
+#define MAINURL           @"https://cloud.bodimetrics.com"
+#define Url_login         MAINURL@"/user/login" //登陆
+
+
+//是否是第一次登录
+#define ISFIRST  @"isfirst"
+//创建新版本的文件夹
+#define NewFolder  @"New_VersionData"
+
+
+//--------------------airtrace------------------
+#import "Notice.h"
+#import "STDImagetice.h"
+#import "DataArrayModel.h"
+
+#define isIpad        UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define ration_H kScreenHeight/768
+#define ration_W kScreenHeight/1024
+
+//通知
+#define Noti_Screenshot @"Noti_Screenshot"
+#define Noti_STDNoti  @"Noti_STDNoti"
+#define Noti_RemoveBobyView  @"Noti_RemoveBobyView"
+
+
+#define RGB(r,g,b) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:1.0]
+

@@ -1,0 +1,231 @@
+
+/*
+ *rootViewController
+ */
+"Warning"       = "警告";
+"Can only be used for iphone4s or later"        = "iPhone4s以降のみで使用できます";
+"Exit"      = "終了";
+
+"Searching..."      = "デバイスを検出中...";
+
+"Please turn on the Bluetooth of your VIATOM device, or enter Offline mode"     = "ブルートゥースデバイスのオンにしてください, またはオフラインモードに入る";
+"Choose a device"       = "デバイスを選択してください";
+"View Offline data"     = "オフラインでデータ表示";
+
+"Loading..."        = "読み込み中...";
+
+"No records found"      = "記録がありません";
+
+"Please update your Checkme"        = "Checkmeをアップデートしてください";
+
+"Get Checkme information failed"        = "Checkme情報の取得に失敗しました";
+
+/*
+ *LeftMenu
+ */
+"Data Review"       = "データレビュー";
+"More"      = "続き";
+"Daily Check"        = "デイリーチェック";
+"ECG Recorder"      = "ECGレコーダ";
+"Pulse Oximeter"        = "パルスオキシメータ";
+"Thermometer"       = "体温計";
+"Sleep Monitor"     = "睡眠モニタ";
+"Pedometer"     = "歩数計";
+
+"Device Update"     = "デバイスのアップデート";
+"Settings"       = "設定";
+"About"     = "バージョン情報";
+/*
+ *DailyCheck
+ */
+"Back"      = "戻る";
+"Daily Check - %@"      = "デイリーチェック - %@";
+"Please wait for current download completed"        = "現在のダウンロードが完了するまでお待ちください";
+
+"Heart Rate"        = "心拍数";
+"Oxygen Saturation"     = "酸素飽和度";
+"Blood Pressure"        = "血圧";
+
+"Day"       = "日";
+"Week"      = "週";
+"Month"     = "月";
+"Year"      = "年";
+
+"Can not download in Offline mode"      = "オフラインモードでは情報をダウンロードできません";
+
+//ChartWave
+"No data"       = "データがありません";
+"No records :("     = "記録がありません :(";
+"(%@ %ld) %ld"		= "(%@/%ld) %ld";
+"%@ %ld"		= "%@/%ld";
+/*
+ *DailyCheck_Detail
+ */
+"Detail"        = "詳細";
+//ecgResults
+"Regular ECG Rhythm"        = "規則正しい心電図調律";
+"High Heart Rate"       = "高い心拍数";
+"Low Heart Rate"        = "低い心拍数";
+"High QRS Value"        = "高いQRS値";
+"High ST Value"     = "高いST値";
+"Low ST Value"      = "低いST値";
+"Irregular ECG Rhythm"      = "不規則な心電図調律";
+"Suspected Premature Beat"      = "期外収縮の疑い";
+"Unable to Analyze"     = "解析できません";
+
+"Normal Blood Oxygen"       = "正常な血中酸素濃度";
+"Low Blood Oxygen"      = "低い血中酸素濃度";
+//设置BP
+"refer to %@"       = "参照 %@";
+
+"Choose a way to share"     = "共有方法を選択してください";
+"Save to Album"     = "アルバムに保存";
+"Share"     = "共有";
+"Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"       = "名前:%@\n測定時刻:%@\n測定:%@\nレポート：添付ファイルをご覧ください\n";
+"Cancel"        = "キャンセル";
+"Save failed, please check your system's privacy settings."     = "保存に失敗しました。システムのプライバシー設定を確認してください";
+"Save succeeded"        = "保存に成功しました";
+// report
+"Femal"     = "女性";
+"Male"      = "男性";
+"Report"        = "レポート";
+"BPsys - %@"        = "収縮期血圧 - %@";
+"No BP calibration"     = "血圧の校正データがありません";
+"Not available for Guest"       = "ゲストは使用できません";
+"Unknown bandwidth"        = "不明な帯域幅";
+"Normal"            = "ノーマル";
+"Wide"            = "ワイド";
+"bandwidth:"         = "帯域:";
+/*
+ *ECG
+ */
+/*
+ *ECG Detail
+ */
+"BP Check data is incomplete, can not be resolved"      = "BP Check data is incomplete, can not be resolved";
+
+/*
+ *SleepMonitor
+ */
+"Blood Oxygen drops detected"       = "血中酸素濃度の低下が検出されました";
+"No abnormalities detected"     = "異常は検出されませんでした";
+"Unable to Analyze"     = "解析できません";
+
+/*
+ *SLM detail
+ */
+"%dh%dm%ds"     = "%d時%d分%d秒";
+"%dm%ds"        = "%d分%d秒";
+"drop"      = " 回低下";
+
+/*
+ *Pedometer
+ */
+"Pedometer - %@"        = "歩数計 - %@";
+
+/*
+ *Checkme update
+ */
+"Can not get Checkme information in Offline mode"       = "オフラインモードでは情報をダウンロードできません";
+"Get Checkme information failed"        = "Checkme情報の取得に失敗しました";
+
+"Network is not available"      = "ネットワークが利用できません";
+"Can not update in Offline mode"        = "オフラインモードではアップデートできません";
+"Update will erase all data"        = "アップデートすると全データが消去されます";
+"Update"       = "アップデート";
+
+"Choose a languge"      = "言語の選択";
+// 语言列表翻译
+
+"Your version is up to date"        = "お使いのバージョンは最新です";
+
+"Change Language"       = "言語の変更";
+
+"Update failed"     = "アップデートに失敗しました";
+
+/*
+ *Update detail
+ */
+"Really want to stop update?"       = "アップデートを中止してよろしいですか?";
+"Yes"       = "はい";
+"Downloading..."        = "ダウンロード中…";
+"Updating..."       = "アップデート中…";
+"Download success"      = "ダウンロードに成功しました";
+"Update success, application will restart"      = "アップデートに成功しました。アプリは再起動します";
+"Restart"       = "再起動";
+
+/*
+ *Settings
+ */
+"Really want to erase all data ?"       = "すべてのデータを消去したいですか？";
+"Yes"       = "はい";
+"No"        = "いいえ";
+"Clear cache"       = "キャッシュをクリア";
+"Clear caches successed"        = "キャッシュをクリアに成功しました";
+
+"Unit"      = "単位";
+"Metric"       = "メートル";
+"British"       = "イギリス";
+
+"℃"         = "℃";
+"℉"         = "℉";
+"Clear cache"       = "キャッシュをクリア";
+"Clear caches successed"        = "キャッシュをクリアに成功しました";
+
+"Switch Device"          = "の切り替えデバイス";
+"Can not change device when you connecting a Checkme"           = "Checkmeの接続中はデバイスを変更できません";
+
+"Switch User"            = "スイッチユーザ";
+
+//HealthKit
+"%@User%@ is locked. If you want to change user, please delete this user and then select another user"  =  "%@User%@はロックされています。ユーザを変更する場合は、このユーザを削除してから別のユーザを選択してください。";
+"Please select a user for data sharing to HealthKit, \n Note: The user cannot be changed after selection" = "HealthKitとデータを共有するユーザを選択してください。\n 注意：選択後はユーザを変更できません";
+"Touch to enable HealthKit function" = "タッチしてHealthKit機能を有効にしてください";
+"User cannot be selected when offline"  =  "オフライン時はユーザを選択できません";
+"Please create a user first"   =  "まず初めにユーザを作成してください";
+"Data is unable to be synchronized when offline"  =  "オフライン時はデータを同期化できません";
+"Not applicable for Hospital mode"  =  "病院モードには適用できません";
+"HealthKit user"   =  "HealthKitユーザ";
+"Synchronization done"  =  "同期化が完了しました";
+
+// Library
+"Delete"        = "削除";
+
+//spotCheck
+"PatientID:%@  Name:%@\nMeasure Time:%@\nMeasurement:%@\nReports:See file attached\n"     = "患者ID:%@  名前:%@\n測定時刻:%@\n測定:%@\nレポート：添付ファイルをご覧ください\n";
+"Spot Check"            = "Spot Check";
+"Temperature not applicable"        = "体温適用できません";
+"Temperature"       = "体温";
+"ECG not applicable"            = "ECG 適用できません";
+"Spo2 not applicable"           = "Spo2 適用できません";
+"Spot Check - %@"           = "Spot Check - %@";
+"Switch Mode"            = "変更モード";
+"Hospital"          = "ホスピタル";
+"Home"          = "ファミリー";
+
+"steps"     = "歩";
+
+"New Version"          = "新バージョン";
+
+
+//cloud
+"Stop" = "Stop";
+"Enter a BodiMetrics Cloud account" = "Enter a BodiMetrics Cloud account";
+"BodiMetrics Cloud" = "BodiMetrics Cloud";
+"Auto sync" = "Auto sync";
+"Manual sync" = "Manual sync";
+"Sign out" = "Sign out";
+"Access Cloud in browser" = "Access Cloud in browser";
+"Sign in" = "Sign in";
+"or create an account at" = "or create an account at";
+"Later" = "Later";
+"Download" = "Download";
+"Please enter a cloud accout!" = "Please enter a cloud accout!";
+"Please enter an email." = "Please enter an email.";
+"Please enter password." = "Please enter password.";
+"Sign in failed!" = "Sign in failed!";
+"Share To" = "Share To";
+"New records ready to download from device. " = "New records ready to download from device.";
+"Delete Data successed"        = "Delete Data successed";
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F53FA9CB-5D0F-4134-B698-264E0E267C01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Checkme Mobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23523408A825FED3825141B89402737C8FCF728B</key>
+		<string>https://github.com/zouhao590/CheckmeMobile-IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Checkme Mobile.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23523408A825FED3825141B89402737C8FCF728B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zouhao590/CheckmeMobile-IOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23523408A825FED3825141B89402737C8FCF728B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23523408A825FED3825141B89402737C8FCF728B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckmeMobile-IOS_2.3.0%E7%89%88%E6%9C%AC%E5%89%AF%E6%9C%AC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
